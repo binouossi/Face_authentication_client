@@ -33,6 +33,6 @@ TACOLODJOU Emmanuel
 Maintainer
 tacolodjounini@gmail.com
 
-# LICECNCE
+# LICENCE
 
 Ce logiciel est protege par la licence GPLv3
