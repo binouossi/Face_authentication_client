@@ -13,10 +13,12 @@ Ce logiciel est la partie cliente d'un systeme de logiciel chargé de s'occuper 
 1. Pour l'installation de ce logiciel dans un premier temps, [telecharger la source du logiciel](https://github.com/binouossi/Face_authentication_client).
 
 2. Creer un dossier de compilation dans la source telechargée, et s'y placé.  
+
 	mkdir build  
 	cd buid  
 
 3. Executer les commandes:  
+
 	cmake -D CMAKE_INSTALL_PREFIX=/usr ..  
 	make  
 	make install  
@@ -27,7 +29,7 @@ Avant toute utilisation du logiciel, il faut lui indiquer l'addresse réseau de 
 
 De meme il faut reconfigurer PAM pour qu'il utilise ce module. Pour cela, allez dans /etc/pam.d/\[logiciel "Le logiciel qui devrait utilser le module. Pour une configuration global, utiliser common-auth" \] pour y inserer la ligne:
 
-	* auth sufficient Face_client.so enableX
+	auth sufficient Face_client.so enableX
 
 # Auteur
 TACOLODJOU Emmanuel  
